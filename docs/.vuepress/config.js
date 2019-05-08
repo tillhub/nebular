@@ -8,13 +8,21 @@ module.exports = {
       '/',
       {
       title: 'Guides',
+      path: '/guides/',
       children: [
-        ['/guides/', 'Overview'],
-        ['/guides/spacing', 'Spacing']
+        {
+          title: 'Overview',
+          path: '/guides/',
+        },
+        {
+          path: '/guides/spacing',
+          title: 'Spacing'
+        }
        ]
       },
       {
         title: 'Components',
+        path: '/components/',
         children: [
           ['/components/', 'Overview'],
           ['/components/currencies', 'Currencies']
@@ -22,16 +30,20 @@ module.exports = {
       },
       {
         title: 'Dashboard',
+        path: '/Dashboard/',
         children: [
-          ['/Dashboard/', 'Overview'],
+          {
+            path: '/Dashboard/',
+            title: 'Overview'
+          }
         ]
       },
-      {
-        title: 'POS',
-        children: [
-          ['/POS/', 'Overview'],
-        ]
-      },
+      // {
+      //   title: 'POS',
+      //   children: [
+      //     ['/POS/', 'Overview'],
+      //   ]
+      // },
       ['/about', 'About']
     ],
     docsRepo: 'tillhub/tillhub-design-system',
