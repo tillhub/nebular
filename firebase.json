@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "public": "contents/.vuepress/dist",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  },
+  "site": "tillhub-design-system"
+}
