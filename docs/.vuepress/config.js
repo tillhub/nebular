@@ -13,13 +13,13 @@ module.exports = {
         ['/guides/spacing', 'Spacing']
        ]
       },
-      // {
-      //   title: 'Components',
-      //   children: [
-      //     ['/components/', 'Overview'],
-      //     ['/components/currencies', 'Currencies']
-      //   ]
-      // },
+      {
+        title: 'Components',
+        children: [
+          ['/components/', 'Overview'],
+          ['/components/currencies', 'Currencies']
+        ]
+      },
       {
         title: 'Dashboard',
         children: [

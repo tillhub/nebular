@@ -72,22 +72,25 @@ export default {
 
 <style lang="stylus">
 .home {
-  padding: $navbarHeight 2rem 0;
   max-width: 960px;
   margin: 0px auto;
-  display: block;
 
   .hero {
+    position: relative;
     text-align: center;
 
     img {
-      max-width: 100%;
-      max-height: 280px;
+      height: auto;
+      width: 100%;
       display: block;
       margin: 3rem auto 1.5rem;
     }
 
     h1 {
+      color: #bacbda;
+      position: absolute;
+      width: 100%;
+      top: 6em;
       font-size: 3rem;
     }
 
@@ -96,9 +99,15 @@ export default {
     }
 
     .description {
+      padding: 0 2rem 0;
       max-width: 35rem;
       font-size: 1.6rem;
       line-height: 1.3;
+      color: lighten($textColor, 40%);
+    }
+
+    .introduction {
+      padding: 0 2rem 0;
       color: lighten($textColor, 40%);
     }
 
@@ -120,6 +129,7 @@ export default {
   }
 
   .features {
+    padding: 0 2rem 0;
     border-top: 1px solid $borderColor;
     padding: 1.2rem 0;
     margin-top: 2.5rem;
@@ -162,6 +172,12 @@ export default {
       flex-direction: column;
     }
 
+    .hero {
+      h1 {
+        top: 1em;
+      }
+    }
+
     .feature {
       max-width: 100%;
       padding: 0 2.5rem;
@@ -182,6 +198,7 @@ export default {
 
       h1 {
         font-size: 2rem;
+        top: 1em;
       }
 
       h1, .description, .action {
