@@ -9,42 +9,19 @@
 Lato is Tillhub’s primary typeface for the web. Using consistent typefaces and sizes helps maintain a coherent product experience.
 
 
- (typography table)
+![](assets/01Typography.svg)
 
 
 ## Color Palette
 
-(color swatch component)
-
-(With names: 
-Orbital Blue #232E3D
-Galactic Blue #279FF6
-Magnetic Grey #A7ABB1
-lunar Grey #E9EAEB
-Meteor Grey #595959
-Velocity Green #32B5A5
-Solaris Yellow #FCF5E8
-Cosmic Red #FF3B30
-Zenith Black #000000
-Flux White #FFFFFF
-Celestial Orange #F0A964)
-
-
-#### Code Snippet
-
-
-```js css html here is a code snippet for the code will add it later ```         
+![](assets/02Colors.svg)
 
 
 ### Usage
 
-We use [Dark Blue - maybe we can make a name for this] on main navigation backgrounds, primary text, and logos. When you need a single color to represent Tillhub use [Dark Blue].
+We use Obrital Blue on main navigation backgrounds, primary text, and logos. When you need a single color to represent Tillhub use [Dark Blue].
 When applying colors to the interface stick with these rules:
-* Use [lighter blue] for primary CTA and secondary headers
-* Use red for “Danger” actions like deleting or signifying low stock levels.
-* Use yellow for signifying medium stock levels.
-* Use green for tertiary buttons, good stock levels, and positive feedback.
-
+* Use Orbital Blue for primary CTA and secondary headers
 
 
 ## Buttons
@@ -52,75 +29,53 @@ When applying colors to the interface stick with these rules:
 Buttons are used to communicate importance, each variation has an intention and can be applied to a variety of HTML nodes.
 
 ### Primary
-(button component)
+![](assets/03Primary.svg)
 
 ### Secondary
-(button component)
+![](assets/04Secondary.svg)
 
 ### Tertiary 
-(button component)
+![](assets/05tertiary.svg)
 
-#### Code Snippet
-
-```js css html here is a code snippet for the code will add it later ```         
 
 
 ### Dos + Don'ts
 
-###### Spacing
-
-![](assets/bttndo.png)
-
-**Do:** When a primary and secondary button is needed in a modal, place them side by side. 
-
-
-![](assets/bttndont.png)
-
-**Don't:** Place primary and secondary buttons on opposite sides of modals or screens 
-
 ###### Hierarchy
 
-![](assets/bttndohierarchy.png)
+![](assets/06Buttondo.svg)
+
 **Do:** In modals with three button options, keep the primary and secondary buttons together and negating button separate. 
 
-![](assets/bttndonthierarchy.png)
+
+![](assets/07Buttondont.svg)
+
 **Don't:** Break up primary and secondary buttons with negating buttons. 
 
 
 ### Pagination
-We Use pagination to indicate a series of related content across multiple pages. 
+We use pagination to indicate a series of related content across multiple pages. 
 
-![](assets/pagination.png)
+![](assets/08Pagination.svg)
 
 ### Dropdown Search
 
 Tillhub dropdown search component enables the user to find words, sentences, dates, numbers in a collection of products, staff, customers, analytics and other sources. 
 
-###### Large
-![](assets/combolarge.png)
+![](assets/09Dropdown.svg)
 
-###### Small
-![](assets/combosmall.png)
 
 ### Button Tab 
 The button tab component is built upon navs and cards internally. It allows the user to quickly navigate between categorical information. 
 
-![](assets/header.png)
+![](assets/11Buttongroups.svg)
 
-### Icons in Buttons
+### Icons 
+Icons must fit in a 24px frame to create consistency across the dashboard.
 
-![](assets/sidemenu.png)
-
-### Dos + Don'ts
-
-![](assets/icondo.png)
-
-**Do:** Use sufficient space between icons when they are next to each other to avoid cognitive overload. Enough space allows the user to know where they can and cannot click. 
+![](assets/10iconrules.svg)
 
 
-
-![](assets/icondont.png)
-**Don't:** Place icons too close together, it reduces the accuracy of the click. 
 
 ## Illustrations
 Tillhub uses illustration to tell our brand story while encouraging response, explaining complex ideas, provoke delight, or read and learn about the dashboard. An Illustration can easily distract or overwhelm the viewer when used decorative instead it can become distracting hindering usability of the product. 
@@ -136,32 +91,32 @@ _Signs that you should Use Illustration:_
 - To  congratulate the user or celebrate 
 - To speak directly to the user in a more personal way
 
-### Empty Spaces
-When no content is available or an error message occurs filling the space with a visual representation, short descriptive text, and a button to create new or redirect our shop keepers. Using illustration in empty spaces helps communicate, inform or direct our shop keepers to make the next decision.
-
-![](assets/noresults.png)
-![](assets/404.png)
-![](assets/error.png)
-
-## Onboarding
-When new features or products are launched it’s important to educate our users so that they can be successful.
 
 ### Illustrations
 When creating an onboarding experience, include an illustration that is explanatory of the action that needs to be taken while keeping the look and feel of the Tillhub brand.  
 
-![](assets/onboarding.png)
-
-### Tone
+#### Tone
 Use a friendly casual tone that feels relatable and speaks directly to the experience the user will have when configuring or using the feature/product. It’s important to speak directly without overwhelming the user with too much text. Break up text with bold call-outs in black to focus on the direct actions in each section. 
 
-![](assets/tone.png)
+#### Onboarding
 
-### Flow
+When new features or products are launched it’s important to educate our users so that they can be successful.
+
+![](assets/14illustrations.svg)
+
+
+#### Flow
 To design a full onboarding experience create a step by step flow explaining the order in which the user will configure the new feature or product. Use a checklist to give the tour, refrain from placing it over actionable items.
 
-![](assets/flow.png)
+![](assets/15flow.svg)
 
 Moving from one checklist item to the next in the flow use “Learn More” to show the user there is more to the tour and giving them the choice to continue or come back to it later.
+
+#### Empty Spaces
+When no content is available or an error message occurs filling the space with a visual representation, short descriptive text, and a button to create new or redirect our shop keepers. Using illustration in empty spaces helps communicate, inform or direct our shop keepers to make the next decision.
+
+![](assets/12empty.svg)
+![](assets/13error.svg)
 
 
 ## Form Elements
@@ -169,35 +124,34 @@ Buttons are used to communicate the importance, each variation has an intention 
 
 ### Input States
 
-(input component)
+![](assets/16input.svg)
 
 ### Sizing
 
-![](assets/inputsize.png)
+![](assets/17inputsize.svg)
 
 ### Do's + Don'ts
 
 ###### Alignment
-![](assets/doinputalign.png)
+![](assets/18inputdos.svg)
 **Do:** Input Title should align with Input Field
 
 
-![](assets/dontinputalign.png)
-![](assets/dontinputalign2.png)
+![](assets/19inputdonts.svg)
 **Don't:**  Input Title not aligned with Input Field or Too much space between Input Title and Input Field  
 
 ###### Spacing + Titles
 
-![](assets/dospacinginput.png)
+![](assets/20inputdos.svg)
 
-![](assets/dontspacinginput.png)
+![](assets/21inputdonts.svg)
 
 
 ### Checkboxes
 
 Check Boxes can be used singularly or in bulk action, below is the styling for both instances.  
 
-![](assets/checkbox.png)
+![](assets/22checkbox.svg)
 
 ### Usage
 
@@ -205,7 +159,7 @@ Check Boxes can be used singularly or in bulk action, below is the styling for b
 
 ### Radio Buttons
 
-![](assets/radiobutton.png)
+![](assets/23radiobuttons.svg)
 
 ### Usage
 - Only use to select between two options
@@ -213,82 +167,99 @@ Check Boxes can be used singularly or in bulk action, below is the styling for b
 
 
 ### Toggle
-
-![](assets/toggle.png)
-
 ### Usage
+![](assets/24toggleswitches.svg)
 
-![](assets/usagetoggle.png)
 - Use a toggle to choose between two or 3 buttons 
 
-![](assets/usageswitch.png)
 - Use a switch style toggle to turn action on or off
 
 
 ### Chips
 
-![](assets/chip.png)
+![](assets/25chips.svg)
 
-###### Sizing
-
-![](assets/chipsize.png)
 
 ### Date Picker
 
-![](assets/datepicker.png)
+![](assets/26datepicker.svg)
 
 ### Drop Zone
 Tillhub's ID Generators use a drag and drop component allowing users to create, move around, and customize complex identification numbers for their products,customers, and staff.
 
-![](assets/dropzone.png)
+![](assets/27dropzone.svg)
 
-![](assets/dropzone1.png)
+![](assets/27dropzone.gif)
 
 ## Filters
+
+![](assets/28filters.svg)
+
 
 ### Do's + Don'ts
 
 
-## Modals
+## Modal
 
-### Behaviors 
-Use a center modal when there is only one input or one element in focus.
-![](assets/modalcenter.png)
+### Do's + Don'ts
 
-Use a side modal when there is more than one input. The side modal can contain up to one column of content.
-![](assets/modalside.png)
+![](assets/29modalsdo.svg)
+**Do:** Use a modal if there are 5 or less inputs and components. 
 
 
-Use a full-screen modal when there are two columns of content.
+![](assets/30modalsdont.svg)
+
+**Don't:** Use a modal if there are more than 5 inputs and components. If the modal is too large to be viewed on the screen and requires scrolling opt for a full page form. 
 
 
 ## Notifications 
 
 ### Popover
-Popovers are used when an explanation is needed about a page, button, or feature. 
+Popovers are used when an explanation about feature. 
+
+![](assets/31Popovers.svg)
 
 ### Alerts
 Alerts are visual feedback for our users to know that they have done something successfully, missing some information, or something went wrong with the server. The duration of the alert should span 5 seconds allowing the user to be able to read the notifications. 
 
+
 ###### Success
 
+![](assets/32alertssuccess.svg)
 
 ###### Warning
 
+![](assets/32alertswarning.svg)
 
 ###### Error 
+
+![](assets/32alertserror.svg)
 
 ## Tables
 
 ### Columns 
 Adding and removing columns is a behavior that customizes table view for our shopkeepers. The dropdown button on the side of the table opens up a drawer of checkboxes. Each checkbox adds or removes specified columns. 
 
-![](assets/columnadder.gif)
+
 
 ### Rows
 The collapsing feature in rows allows users to reveal more information in a table view. 
 
-![](assets/rowcollapse.gif)
+#### States
+
+Rows can be clickable to edit or view more information, in the case of a clickable row it is necessary to show a hover state of Lunar Grey to visualise the functionality. 
+
+![](assets/34rows.svg)
+
+
+#### Do's + Don'ts
+
+![](assets/34rowsdo.svg)
+**Do:**  Sufficiently contrast collapsable rows to differentiate the drop down from the table 
+
+![](assets/34rowsdont.svg)
+**Don't:** Not having contrast on collapsable rows makes,  it difficult for the user to differentiate the collapsable rows from the table 
+
 
 ## Layout 
 
@@ -298,24 +269,16 @@ The following layout patterns are common ways Tillhub arranges the content of th
 
 The dashboard consists of layers of page components and layout components within the app frame. The layout holds cards, components, and banners in a way that responds to different screen sizes. 
 
-###### App Frame
-![](assets/layoutopen.jpg)
 
-![](assets/layoutclosed.jpg)
+###### Desktop
+The outer UI is the app frame of the application. It holds global features like top-level navigation and search.
+
+![](assets/35desktop.svg)
+
+###### iPad 
+![](assets/35pos.svg)
 
 The outer UI is the app frame of the application. It holds global features like top-level navigation and search and is also collapsible. 
-
-###### Page Component
-
-![](assets/pagecomponent1.jpg)
-
-The page component: 
-- Container for the content of each specific page 
-- Controls the horizontal margins of the content area 
-
-![](assets/pagecomponent2.jpg)
-
-![](assets/pagecomponent3.jpg)
 
 
 ## Margin + Padding
@@ -327,145 +290,21 @@ Tillhub’s 5 grid system is the standard for spacing between components, compon
 
 Each cell on a standard view of a table has 10px spacing above and below.
 
-![](assets/tablelayout.png)
+![](assets/39.jpg)
+
 
 On a dropdown  view, cells alternate between 15px and 10px between cells. 
 
-![](assets/dropdownlayout.png)
+![](assets/40.jpg)
 
-### Do's + Don'ts
-Reviewing the following guidelines will help make quick decisions when designing or developing tables and their behaviors. 
+### Forms
 
-###### Alignment
-![](assets/aligndo.png)
-**Do:** Align all buttons and search fields with tables
+![](assets/38forms.jpg)
 
-![](assets/aligndont.png)
-**Don't:** Place buttons and search fields not aligned with tables 
+### Widgets
 
+![](assets/37.jpg)
 
-###### Row Spacing 
-
-![](assets/rowdo.png)
-**Do:** Have sufficient padding in rows 
-
-![](assets/rowdont.png)
-**Don't:** Missing padding in rows making the text illegible 
-
-
-
-###### Contrast 
-
-![](assets/contrastdo.png)
-**Do:** Sufficiently contrast collapsible rows to differentiate the dropdown from the table 
-
-![](assets/contrastdont.png)
-**Don't:** Insufficient contrast on collapsible rows makes it difficult for the user to differentiate the collapsible rows from the table 
-
-### Components
-
-The height and indent of a group of inputs is 20px. 
-
-![](assets/componentspace.png)
-
-### Group Toggle
-Maintain 15px between toggle group components.
-
-![](assets/componentspace.png)
-
-
-
-
-## Actionable Language
-
-### Sentences 
-Use direct language to tell the user what to do, start with a verb. Keep copy short, direct, instructive, and not too creative straight. Be straight to the point and avoid saying "you can."
-
-
-
-![](assets/do.png)
-Add your first product and see how it looks in your store
-
-
-![](assets/dont.png)
-
-- Products appear in your store after you add them.
-- Add your first product so you can see how it looks in your store. 
-- Use the [verb + noun] pattern, such as "Learn more"
-- Not use punctuation, with the excpetion of question marks when needed 
-
-
-
-### Buttons
-
-Dashboard: Export, Save, +new, cancel, delete, create. 
-
-### Apply vs. Save
-
-Use "Apply" as an option for shop owners to add from the date picker.
-
-Use "Save" for the web as the default for any action that saves immediately to the database. 
-
-![](assets/do.png)
-For web, use the verb "Apply for the date picker filter"
-
-![](assets/datepicker.png)
-
-![](assets/dont.png)
-- Save
-- Done
-- Save Filter 
-
-![](assets/do.png)
-For web, use "Save" for immediate changes to the database
-
-(picture of edit product)
-
-[](assets/dont.png)
-- Done
-- Finished
-- Close
-- Apply
-
-
-## Dark Mode 
-
-The magic of Dark Mode is:
-- A balance of darkness + contrasting colors
-- Mastering the color scheme
-- Mastering typography
-- A focus on the content standing out against a darker background
-
-Ensure sufficient color contrast with ratio no lower than 4.5:1
-
-On dark Tillhub blue #232E3D, balancing: White, light grey, Tillhub light blue #279FF6, Red for alerts and green for success. 
-
-###### Dark cards on light 
-![](assets/dark1.png)
-
-
-###### Light cards on dark 
-![](assets/light1.png)
-
-- Widgets/ Card UI style:
-Invert contrast (lighter card on darker background like example 1 or darker card on lighter background like example 2). Remove borders and shadows.
-
-- Icons: 
-On side navigation are white. Others, less used are light grey like notifications and help (think of hierarchy to make some icons brighter).
-
-- Menu selected: 
-Light blue to offer contrast
-
-- CTAs:
-Primary: same as light mode
-Secondary: remove borders
-
-
-
-
-![](assets/dark.png)
-
-![](assets/light.png)
 
 
 
