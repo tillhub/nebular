@@ -7,26 +7,8 @@ module.exports = {
     sidebar: [
       '/',
       {
-      title: 'Guides',
-      path: '/guides/',
-      children: [
-        {
-          title: 'Overview',
-          path: '/guides/',
-        },
-        {
-          path: '/guides/spacing',
-          title: 'Spacing'
-        }
-       ]
-      },
-      {
-        title: 'Components',
-        path: '/components/',
-        children: [
-          ['/components/', 'Overview'],
-          ['/components/currencies', 'Currencies']
-        ]
+      title: 'Overview',
+      path: '/guides/'
       },
       {
         title: 'Dashboard',
@@ -38,13 +20,12 @@ module.exports = {
           }
         ]
       },
-      // {
-      //   title: 'POS',
-      //   children: [
-      //     ['/POS/', 'Overview'],
-      //   ]
-      // },
-      ['/about', 'Typography']
+      {
+         title: 'POS',
+         children: [
+           ['/POS/', 'Overview'],
+         ]
+      },
     ],
     docsRepo: 'tillhub/tillhub-design-system',
     editLinks: true,
