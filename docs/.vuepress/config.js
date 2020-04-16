@@ -44,7 +44,7 @@ module.exports = {
       //     ['/POS/', 'Overview'],
       //   ]
       // },
-      ['/about', 'About']
+      ['/about', 'Typography']
     ],
     docsRepo: 'tillhub/tillhub-design-system',
     editLinks: true,
