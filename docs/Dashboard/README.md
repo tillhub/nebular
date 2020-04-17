@@ -221,7 +221,7 @@ Tillhub's ID Generators use a drag and drop component allowing users to create, 
 ### Popover
 Popovers are used when an explanation about feature.
 
-![](./assets/31Popovers.svg)
+![](./assets/31popovers.svg)
 
 ### Alerts
 Alerts are visual feedback for our users to know that they have done something successfully, missing some information, or something went wrong with the server. The duration of the alert should span 5 seconds allowing the user to be able to read the notifications.
