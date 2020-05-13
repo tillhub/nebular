@@ -1,19 +1,28 @@
 # IOS Resolution Specifications
 
 ## Device Asset Resolution (table)
+![](./assets/01resolution.svg)
 
 ## Typography
 
 iOS uses two typfaces, Marr Sans and Lato. Marr Sans is our display typeface and is used for titles and headers. Lato is for body copy, button copy and any other content that is longer than a couple of words.
 
-#### Display (table)
-
-### Body Copy (table)
+### Copy
+![](./assets/02typography.svg)
 
 ## Buttons
+#### 35px
+![](./assets/03buttons35.svg)
 
-### 35px
-#
+#### 45px
+![](./assets/04buttons45.svg)
+
+### 50px
+![](./assets/05buttons50.svg)
+
+### 100px
+![](./assets/06buttons100.svg)
+
 
 ###### Tileset
 
