@@ -23,7 +23,6 @@ iOS uses two typfaces, Marr Sans and Lato. Marr Sans is our display typeface and
 ### 100px
 ![](./assets/06buttons100.svg)
 
-
 ###### Tileset
 
 ![](./assets/35px.png)
