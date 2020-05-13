@@ -15,82 +15,13 @@ iOS uses two typfaces, Marr Sans and Lato. Marr Sans is our display typeface and
 ![](./assets/03buttons35.svg)
 
 #### 45px
-![](./assets/04buttons45.svg)
+![](./assets/03buttons45.svg)
 
 ### 50px
-![](./assets/05buttons50.svg)
+![](./assets/05button50.svg)
 
 ### 100px
-![](./assets/06buttons100.svg)
-
-###### Tileset
-
-![](./assets/35px.png)
-![](./assets/35px1.png)
-
-###### Cart
-
-![](./assets/carts.png)
-
-### 45px
-
-###### Cart
-
-![](./assets/cart1.png)
-![](./assets/cart2.png)
-
-###### Close Register
-
-![](./assets/submit.png)
-![](./assets/xreport.png)
-
-###### End Sale
-
-![](./assets/emailenabled.png)
-![](./assets/emaildisabled.png)
-
-###### History
-
-![](./assets/refund.png)
-![](./assets/book.png)
-![](./assets/refundwhite.png)
-![](./assets/refundblue.png)
-
-###### Login
-
-![](./assets/signin.png)
-
-###### Filters
-
-![](./assets/showresults.png)
-![](./assets/cancelsale.png)
-
-
-###### Product Sets
-![](./assets/abbrechen.png)
-![](./assets/speichern.png)
-
-
-###### Checkout
-![](./assets/split.png)
-
-
-### 50px
-#
-
-###### Cash Payment
-![](./assets/cashpayment.png)
-![](./assets/cashpayment1.png)
-
-
-### 100px
-#
-
-###### Variants
-![](./assets/none.png)
-![](./assets/black.png)
-![](./assets/blue.png)
-
+![](./assets/06button100.svg)
 
 
 ## Icons
