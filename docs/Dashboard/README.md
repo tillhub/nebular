@@ -204,6 +204,34 @@ Tillhub's ID Generators use a drag and drop component allowing users to create, 
 
 ## Modal
 
+Modals have fixed width but can extend vertically to a maximum of 500px. Our most common screen sizes are 1280 x 720 and we have to be mindful when creating them, if they are longer than the max width we could lose visibility of button actions. If they don't have a fixed size they could have odd behaviors when adjusting to different screen sizes and have poor responsiveness.
+
+### Extra Large Modal
+Use extra large modal with 7 inputs or less when needed 
+900px x 600px, scroll after 600px 
+
+![](./assets/41modalsXL.svg)
+
+
+### Large Modal
+Use large modal with 5 inputs or less when needed 
+800px x 500px, max vertical height of 600px, scroll after 600px 
+
+![](./assets/41modalsL.svg)
+
+### Medium Modal
+Use medium modal with 3 inputs or less when needed 
+700px x 400px, max vertical height of 600px, scroll after 600px 
+
+![](./assets/41modalsM.svg)
+
+### Small Modal 
+Use small modal with 2 inputs or less when needed 
+400px x 200px
+
+![](./assets/41modalsS.svg)
+
+
 ### Do's + Don'ts
 
 ![](./assets/29modalsdo.svg)
